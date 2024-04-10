@@ -43,8 +43,8 @@ const Feature = () => {
                 {cards.map((card, index) => (
                     <div
                         key={`feature-${index}`}
-                        className="w-670 flex flex-col hover:ring-4 hover:blue-300 hover:shadow-lg hover:shadow-current">
-                        <div className="w-full h-28 flex justify-center mb-4 " >
+                        className="w-670 flex flex-col border border-gray-300 hover:ring-4 hover:blue-300 hover:shadow-lg hover:shadow-current">
+                        <div className="w-full h-28 flex justify-center mt-5  " >
                             <Image
                                 src={`/${card.icon}`}
                                 alt={card.title} // Use title for alt text
@@ -52,8 +52,8 @@ const Feature = () => {
                                 height={100}
                             />
                         </div>
-                        <h2 className="text-xl text-center font-bold mb-2">{card.title}</h2>
-                        <p className="text-gray-700 text-center">{card.description}</p>
+                        <h2 className="text-xl text-center mt-2 font-bold mb-2">{card.title}</h2>
+                        <p className="text-gray-700 text-center p-5">{card.description}</p>
                     </div>
                 ))}
             </div>
