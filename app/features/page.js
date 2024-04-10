@@ -43,13 +43,13 @@ const Feature = () => {
                 {cards.map((card, index) => (
                     <div
                         key={`feature-${index}`}
-                        className="w-670 flex flex-col border border-solid border-gray-300 px-3 py-4">
-                        <div className="w-full flex justify-center mb-4">
+                        className="w-670 flex flex-col hover:ring-4 hover:blue-300 hover:shadow-lg hover:shadow-current">
+                        <div className="w-full h-28 flex justify-center mb-4 " >
                             <Image
                                 src={`/${card.icon}`}
                                 alt={card.title} // Use title for alt text
-                                width={80}
-                                height={80}
+                                width={90}
+                                height={100}
                             />
                         </div>
                         <h2 className="text-xl text-center font-bold mb-2">{card.title}</h2>

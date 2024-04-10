@@ -25,10 +25,10 @@ const Header = () => {
                         <Image src="/Rectangle.png" alt="Icon" className="mr-2" width={230} height={54} />
                     </div>
                     <nav className="flex flex-col md:flex-row" key="nav">
-                        <button className="mx-2 mb-2 md:mb-0" onClick={() => scrollToSection('about')} key="about-button">About</button>
-                        <button className="mx-2 mb-2 md:mb-0" onClick={() => scrollToSection('features')} key="features-button">Features</button>
-                        <button className="mx-2 mb-2 md:mb-0" onClick={() => scrollToSection('screenshots')} key="screenshots-button">Screenshots</button>
-                        <button className="mx-2 mb-2 md:mb-0" onClick={() => scrollToSection('heltcenter')} key="policy-button">Privacy Policy</button>
+                        <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('about')} key="about-button">About</button>
+                        <button className="mx-2 mb-2 md:mb-0 font-medium font-semibold" onClick={() => scrollToSection('features')} key="features-button">Features</button>
+                        <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('screenshots')} key="screenshots-button">Screenshots</button>
+                        <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('heltcenter')} key="policy-button">Privacy Policy</button>
                     </nav>
                 </div>
             </header>
@@ -43,16 +43,16 @@ const Header = () => {
                         <span className="font-bold text-[#1380E7]">Budget.</span>
                         <span className="font-bold text-[#009852]">Thrive</span>
                     </h2>
-                    <p className="text-sm mt-2 md:mt-4 max-w-sm " key="description">Smartspend Expense Manager: Your Daily Companion for Financial Success.</p>
+                    <p className="text-xl mt-2 md:mt-4 max-w-md font-medium " key="description">Smartspend Expense Manager: Your Daily Companion for Financial Success.</p>
                     <div className="flex mt-4" key="store-buttons">
-                        <div className="inline-block mr-4" key="google">
+                        <div className="inline-block mr-4" key="download-section-first-6">
                             <a href="https://play.google.com/store/apps/details?id=sstech.com.singleexpense" target="_blank" rel="noopener noreferrer">
-                                <Image src="/Google-Play-Store.png" alt="Google Play Button" width={200} height={100} />
+                                <Image src="/Google-Play-Store.png" width={250} height={73} alt="Google Play Button" className="h-11 w-auto" style={{ width: "150px" }} />
                             </a>
                         </div>
-                        <div className="inline-block" key="apple">
+                        <div className="inline-block" key="download-section-first-7">
                             <a href="https://apps.apple.com/us/app/wallet-income-expense-tracker/id1445995357" target="_blank" rel="noopener noreferrer">
-                                <Image src="/Apple-Play-Store.png" alt="App Store Button" width={200} height={100} />
+                                <Image src="/Apple-Play-Store.png" width={250} height={73} alt="App Store Button" className="h-11 w-auto" style={{ width: "150px" }} />
                             </a>
                         </div>
                     </div>

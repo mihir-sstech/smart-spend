@@ -19,8 +19,8 @@ const Download = () => {
                             <img src="/Google-Play.png" alt="Google Play" className='h-10 mt-4' />
                         </div>
                         <div className="flex flex-col">
-                            <div className="mr-2 text-1xl">4.4 Rating</div>
-                            <img src="/rating.png" alt="Rating" style={{ height: "27px", width: "100px" }} />
+                            <div className="mr-2 font-medium text-1xl">4.4 Rating</div>
+                            <img src="/rating.png" alt="Rating" style={{ height: "22px", width: "90px" }} />
                         </div>
                     </div>
                     <div className="flex mt-4" key="download-section-first-5">

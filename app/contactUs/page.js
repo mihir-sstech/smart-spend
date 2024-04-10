@@ -11,7 +11,7 @@ const Contact = () => {
                             First Name
                         </label>
                         <input
-                            className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
+                            className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-non"
                             id="firstName"
                             type="text"
                             name="firstName"
@@ -24,7 +24,7 @@ const Contact = () => {
                             Last Name
                         </label>
                         <input
-                            className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
+                            className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none "
                             id="lastName"
                             type="text"
                             name="lastName"
@@ -38,7 +38,7 @@ const Contact = () => {
                         Email
                     </label>
                     <input
-                        className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
+                        className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none "
                         id="email"
                         type="email"
                         name="email"
@@ -51,7 +51,7 @@ const Contact = () => {
                         Message
                     </label>
                     <textarea
-                        className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white h-20 resize-none"
+                        className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none h-20 resize-none"
                         id="message"
                         name="message"
 
