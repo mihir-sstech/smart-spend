@@ -39,9 +39,9 @@ const Header = () => {
                 </div>
                 <div className="mt-8 md:mt-0" key="text">
                     <h2 className="text-lg font-extrabold" key="title">
-                        <span className="font-bold text-[#E53A36] text-4xl">Track.</span>
-                        <span className="font-bold text-[#1380E7]">Budget.</span>
-                        <span className="font-bold text-[#009852]">Thrive</span>
+                        <span className="font-extrabold text-[#E53A36] text-4xl">Track.</span>
+                        <span className="font-extrabold text-[#1380E7] text-4xl">Budget.</span>
+                        <span className="font-extrabold  text-[#009852] text-4xl">Thrive</span>
                     </h2>
                     <p className="text-xl mt-2 md:mt-4 max-w-md font-medium " key="description">Smartspend Expense Manager: Your Daily Companion for Financial Success.</p>
                     <div className="flex mt-4" key="store-buttons">
