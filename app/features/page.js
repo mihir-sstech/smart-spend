@@ -48,11 +48,11 @@ const Feature = () => {
                             <Image
                                 src={`/${card.icon}`}
                                 alt={card.title} // Use title for alt text
-                                width={90}
-                                height={100}
+                                width={110}
+                                height={115}
                             />
                         </div>
-                        <h2 className="text-xl text-center mt-2 font-bold mb-2">{card.title}</h2>
+                        <h2 className="text-xl text-center mt-10 font-bold mb-1">{card.title}</h2>
                         <p className="text-gray-700 text-center p-5">{card.description}</p>
                     </div>
                 ))}
