@@ -28,7 +28,9 @@ const Header = () => {
                         <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('about')} key="about-button">About</button>
                         <button button className="mx-2 mb-2 md:mb-0 font-medium font-semibold" onClick={() => scrollToSection('features')} key="features-button" > Features</button >
                         <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('screenshots')} key="screenshots-button">Screenshots</button>
-                        <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('heltcenter')} key="policy-button">Privacy Policy</button>
+                        <a href="https://sstechstudio.com/single_expense/pages/index/privacy-policy" target="_blank" rel="noopener noreferrer">
+                            <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" key="policy-button">Privacy Policy</button>
+                        </a>
                     </nav >
                 </div >
             </header >
