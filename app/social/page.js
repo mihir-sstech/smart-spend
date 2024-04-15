@@ -7,7 +7,7 @@ const Social = () => {
             <div className="flex flex-col justify-center py-4 px-8">
                 <div className="container px-4 md:px-0">
                     <a href="https://sstechstudio.com/single_expense/pages/index/privacy-policy" target="_blank" rel="noopener noreferrer">
-                        <p className="text-sm max-sm ">Terms of Use | Privacy Policy</p>
+                        <p className="text-sm max-sm ">Privacy Policy</p>
                     </a>
                     <p className="text-sm max-sm">2024 © Smart Spend Expense Manager.</p>
                 </div>
