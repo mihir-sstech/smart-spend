@@ -17,7 +17,7 @@ const Header = () => {
     };
 
     return (
-        <div className='bg-white' key="hom-section-first-11">
+        <div className='' key="hom-section-first-11" >
             <header className="bg-slate-100 text-black" key="header12">
                 <div className="container mx-auto flex flex-col md:flex-row justify-between items-center py-4" key="container">
                     <div className="flex items-center mb-4 md:mb-0" key="logo">
@@ -26,14 +26,14 @@ const Header = () => {
                     </div>
                     <nav className="flex flex-col md:flex-row" key="nav">
                         <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('about')} key="about-button">About</button>
-                        <button className="mx-2 mb-2 md:mb-0 font-medium font-semibold" onClick={() => scrollToSection('features')} key="features-button">Features</button>
+                        <button button className="mx-2 mb-2 md:mb-0 font-medium font-semibold" onClick={() => scrollToSection('features')} key="features-button" > Features</button >
                         <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('screenshots')} key="screenshots-button">Screenshots</button>
                         <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('heltcenter')} key="policy-button">Privacy Policy</button>
-                    </nav>
-                </div>
-            </header>
+                    </nav >
+                </div >
+            </header >
 
-            <div className="container flex flex-col md:flex-row justify-center items-center  mx-auto" key="content">
+            <div className="bg-slate-100 max-w-full container flex flex-col md:flex-row justify-center items-center  mx-auto" key="content">
                 <div className="p-10 mr-4" key="image">
                     <Image src="/homeone.png" alt="Image" width={551} height={521} />
                 </div>
@@ -59,24 +59,24 @@ const Header = () => {
                 </div>
             </div>
 
-            <div id="about" className="container mx-auto" key="about-section">
+            <div id="about" className="container max-w-full mx-auto" key="about-section">
                 <About key="about-content" />
             </div>
-            <div id="features" className="container mx-auto" key="features-section">
+            <div id="features" className="bg-slate-100 container max-w-full  mx-auto" key="features-section">
                 <Feature key="features-content" />
             </div>
-            <div id="screenshots" className="container mx-auto" key="screenshots-section">
+            <div id="screenshots" className=" container max-w-full mx-auto" key="screenshots-section">
                 <Screenshots key="screenshots-content" />
             </div>
-            <div id="heltcenter" className="container mx-auto" key="helpcenter-section">
+            <div id="heltcenter" className="bg-slate-100 container max-w-full mx-auto" key="helpcenter-section">
                 <HelpCenter key="helpcenter-content" />
                 <Dowonloads key="downloads-content" />
                 <ContactUs key="contact-content" />
             </div>
-            <div className="container mx-auto" key="social-section">
+            <div className="container max-w-full mx-auto" key="social-section">
                 <Social key="social-content" />
             </div>
-        </div>
+        </div >
     );
 };
 
