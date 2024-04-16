@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
 const About = () => {
-    const scrollToSection = (sectionId) => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
+    // const scrollToSection = (sectionId) => {
+    //     const section = document.getElementById(sectionId);
+    //     if (section) {
+    //         section.scrollIntoView({ behavior: 'smooth' });
+    //     }
+    // };
     return (
 
         <div className="container mx-auto px-4 mt-10 pt-10" key="help-section-first-12">
@@ -28,7 +28,7 @@ const About = () => {
                         <button
                             className="text-white bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                             type="submit"
-                            onClick={() => scrollToSection('contact-us')} key="contact-us"
+                        // onClick={() => scrollToSection('contact-us')} key="contact-us"
                         >
                             HELP CENTER
                         </button>
