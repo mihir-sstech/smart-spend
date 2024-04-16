@@ -15,7 +15,7 @@ const Social = () => {
             </div>
 
             {/* Center Section with Social Media Buttons */}
-            <div className="flex justify-center md:justify-start items-center space-x-4 py-4 px-4 md:px-0 md:ml-0 md:w-auto" style={{ marginLeft: '-150px', animation: 'slideIn 1s forwards' }}>
+            <div className="flex justify-center md:justify-start items-center space-x-4 py-4 px-4 md:px-0 md:ml-0 md:w-auto" style={{ marginLeft: '-125px', animation: 'slideIn 1s forwards' }}>
                 <a href="https://www.facebook.com/singleexpense" target="_blank" rel="noopener noreferrer" className="social-icon bg-gradient-to-br p-1">
                     <Image src="/faceboook.png" alt="facebook" width={40} height={40} />
                 </a>
