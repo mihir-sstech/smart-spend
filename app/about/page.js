@@ -4,8 +4,8 @@ const About = () => {
     return (
         <div className="w-full md:w-981 h-auto md:h-477" key="about-section" >
             <div className="container w-full " key="about-section-first">
-                <h1 className="text-3xl font-bold text-center mb-4 pt-4">About Us</h1>
-                <div className='md:p-11' key="about-section-first-half">
+                <h1 className="text-3xl font-bold text-center  pt-10">About Us</h1>
+                <div className='md:p-8' key="about-section-first-half">
                     <div className="container mx-auto">
                         <div className="flex mx-auto px-4" key="about-section-first-half1">
                             <p className="text-xl  font-medium  md:text-base mb-4">

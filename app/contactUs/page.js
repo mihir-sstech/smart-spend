@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 const Contact = () => {
     return (
-        <div className="container mx-auto px-4 py-16">
+        <div className="container mx-auto px-4 py-16 pt-10">
             <h1 className="text-3xl font-bold text-center mb-8">Contact Us</h1>
-            <div className="max-w-xl mx-auto">
+            <div className="md:p-8 max-w-xl mx-auto">
                 <form className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
@@ -56,7 +56,7 @@ const Contact = () => {
                         ></textarea>
                     </div>
                     <button
-                        className="text-center mx-auto block mt-10"
+                        className="text-center mx-auto block pt-10"
                         style={{
                             backgroundColor: '#2098C7',
                             color: 'white',

@@ -14,16 +14,13 @@ const Social = () => {
             </div>
 
             {/* Center Section */}
-            <div className="flex justify-center ">
+            <div className="flex justify-center items-center">
                 {/* Social Media Buttons */}
-                <a href="https://www.facebook.com/singleexpense" target="_blank" rel="noopener noreferrer" className="social-icon bg-gradient-to-br  p-1">
+                <a href="https://www.facebook.com/singleexpense" target="_blank" rel="noopener noreferrer" className="social-icon bg-gradient-to-br p-1">
                     <Image src="/faceboook.png" alt="facebook" className="" width={40} height={40} />
                 </a>
-                <a href="https://www.instagram.com/smartspendofficial/" target="_blank" rel="noopener noreferrer" className="social-icon text-white  p-1">
+                <a href="https://www.instagram.com/smartspendofficial/" target="_blank" rel="noopener noreferrer" className="social-icon text-white p-1">
                     <Image src="/instagramm.png" alt="instagram" className="" width={35} height={35} />
-                </a>
-                <a href="https://www.linkedin.com/company/sstech-system/?originalSubdomain=in" target="_blank" rel="noopener noreferrer" className="social-icon p-1">
-                    <Image src="/linkedinn.png" alt="Google Play Store" className="" width={40} height={40} />
                 </a>
             </div>
 
@@ -35,4 +32,3 @@ const Social = () => {
 }
 
 export default Social;
-

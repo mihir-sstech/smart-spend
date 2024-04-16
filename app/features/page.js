@@ -37,9 +37,9 @@ const Feature = () => {
     ];
     return (
 
-        <div className="container mx-auto px-4 mt-10">
+        <div className="container mx-auto px-4 mt-10 pt-10">
             <h1 className="text-3xl font-bold text-center mb-4">App Features</h1>
-            <div className="grid grid-cols-2 md:grid-cols-3 xs:grid-cols-1  gap-4 "> {/* Change grid-cols-2 to grid-cols-3 */}
+            <div className="grid grid-cols-2 md:grid-cols-3 md:p-8 xs:grid-cols-1  gap-4 "> {/* Change grid-cols-2 to grid-cols-3 */}
                 {cards.map((card, index) => (
                     <div
                         key={`feature-${index}`}
