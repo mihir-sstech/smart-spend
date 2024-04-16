@@ -10,7 +10,7 @@ const About = () => {
     return (
 
         <div className="container mx-auto px-4 mt-10 pt-10" key="help-section-first-12">
-            <h1 className="text-3xl font-extrabold mb-4 text-center">Help Center</h1>
+            <h1 className="text-3xl font-extrabold mb-4 text-center">Help Centereeee</h1>
 
             <div className="container flex flex-col md:flex-row justify-center items-center md:p-8" key="help-section-first-13">
                 <div className="p-10 mr-4">
