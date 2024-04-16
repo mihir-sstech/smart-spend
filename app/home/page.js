@@ -94,7 +94,7 @@ const Header = () => {
                                     type="submit"
                                     onClick={() => scrollToSection('contact-us')} key="contact-us"
                                 >
-                                    HELP CENTER
+                                    HELP CENTERe
                                 </button>
                             </div>
                         </div>
