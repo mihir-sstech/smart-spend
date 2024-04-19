@@ -24,13 +24,13 @@ export default function Home() {
             <Image src="/Rectangle.png" alt="Icon" className="mr-2" width={230} height={54} />
           </div>
           <nav className="flex flex-col md:flex-row" key="nav">
-            <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('about')} key="about-button">About</button>
-            <button className="mx-2 mb-2 md:mb-0 font-medium font-semibold" onClick={() => scrollToSection('features')} key="features-button" > Features</button >
-            <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('screenshots')} key="screenshots-button">Screenshots</button>
-            <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('contact-us')} key="contact-us"></button>
+            <button className="mx-4 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('about')} key="about-button">About</button>
+            <button className="mx-4 mb-2 md:mb-0 font-medium font-semibold" onClick={() => scrollToSection('features')} key="features-button" > Features</button >
+            <button className="mx-4 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('screenshots')} key="screenshots-button">Screenshots</button>
             <a href="https://sstechstudio.com/single_expense/pages/index/privacy-policy" target="_blank" rel="noopener noreferrer">
-              <button className="mx-2 mb-2 md:mb-0 font-body font-semibold" key="policy-button">Privacy Policy</button>
+              <button className="mx-4 mb-2 md:mb-0 font-body font-semibold" key="policy-button">Privacy Policy</button>
             </a>
+            <button className="mx-0 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('contact-us')} key="contact-us"></button>
           </nav >
         </div >
       </header >
@@ -41,9 +41,9 @@ export default function Home() {
         </div>
         <div className="mt-8 md:mt-0" key="text">
           <h2 className="text-lg font-extrabold" key="title">
-            <span className="font-extrabold text-[#E53A36] text-4xl">Track.</span>
-            <span className="font-extrabold text-[#1380E7] text-4xl">Budget.</span>
-            <span className="font-extrabold  text-[#009852] text-4xl">Thrive</span>
+            <span className="font-extrabold text-[#E53A36] text-4xl">Track. </span>
+            <span className="font-extrabold text-[#1380E7] text-4xl">Budget. </span>
+            <span className="font-extrabold  text-[#009852] text-4xl">Thrive.</span>
           </h2>
           <p className="text-xl mt-2 md:mt-4 max-w-md font-medium " key="description">Smartspend Expense Manager: Your Daily Companion for Financial Success.</p>
           <div className="flex mt-4" key="store-buttons">
@@ -80,12 +80,12 @@ export default function Home() {
             </div>
             <div className="mt-8 md:mt-0" key="help-section-first-14">
               <h2 className="text-lg font-extrabold">
-                <span className="font-bold text-[#E53A36] text-2xl">S</span>
-                <span className="font-bold text-2xl">mart</span>
-                <span className="font-bold text-[#E53A36] text-2xl">S</span>
-                <span className="font-bold  text-2xl">pend Help Center</span>
+                <span className="font-extrabold text-[#E53A36] text-3xl">S</span>
+                <span className="font-extrabold text-3xl">mart</span>
+                <span className="font-extrabold text-[#E53A36] text-3xl">S</span>
+                <span className="font-extrabold  text-3xl">pend Help Center</span>
               </h2>
-              <p className="text-md mt-2 font-medium md:mt-4 max-w-sm " key="help-section-first-15">Regular updates and user manuals are readily available for your convenience.</p>
+              <p className="text-md mt-2 text-xl font-medium md:mt-4 max-w-sm " key="help-section-first-15">Regular updates and user manuals are readily available for your convenience.</p>
               <div className="flex mt-4" key="help-section-first-16">
                 <button
                   className="text-white bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"

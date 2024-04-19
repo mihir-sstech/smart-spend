@@ -15,14 +15,15 @@ const Social = () => {
             </div>
 
             {/* Center Section with Social Media Buttons */}
-            <div className="flex justify-center md:justify-start items-center space-x-4 py-4 px-4 md:px-0 md:ml-0 md:w-auto" style={{ marginLeft: '-125px', animation: 'slideIn 1s forwards' }}>
-                <a href="https://www.facebook.com/singleexpense" target="_blank" rel="noopener noreferrer" className="social-icon bg-gradient-to-br p-1">
+            <div className="flex justify-center md:justify-start items-center space-x-4 py-4 px-4 md:px-0 md:ml-0 md:w-auto" style={{ marginLeft: '-125px', animation: 'slideIn 1s forwards', display: 'flex', alignItems: 'center' }}>
+                <a href="https://www.facebook.com/singleexpense" target="_blank" className="flex items-center justify-center social-icon p-0">
                     <Image src="/faceboook.png" alt="facebook" width={40} height={40} />
                 </a>
-                <a href="https://www.instagram.com/smartspendofficial/" target="_blank" rel="noopener noreferrer" className="social-icon text-white p-1">
-                    <Image src="/instagramm.png" alt="instagram" width={35} height={35} />
+                <a href="https://www.instagram.com/smartspendofficial/" target="_blank" className="" >
+                    <Image src="/instagramm.png" alt="instagram" width={33} height={33} style={{ marginTop: "-5px" }} />
                 </a>
             </div>
+
 
             {/* Right Section */}
             <div className="flex justify-end items-center py-4 px-4 md:px-8">
