@@ -27,7 +27,7 @@ const About = () => {
             key="about-section"
         >
             <div className="max-w-4xl px-4" key="about-section-first">
-                <h1 className="text-4xl font-extrabold text-center pt-10 mb-8">About Us</h1>
+                <h1 className="text-4xl font-extrabold text-center pt-10 mb-1">About Us</h1>
                 <div className='md:p-8' style={{ marginLeft, animation: 'slideIn 1s forwards' }}>
                     <div className="flex flex-col mx-auto" key="about-section-first-half">
                         <p className="text-xl font-medium md:text-base mb-4">
