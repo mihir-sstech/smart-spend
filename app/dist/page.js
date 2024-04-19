@@ -1,14 +1,14 @@
 'use client';
 "use strict";
 exports.__esModule = true;
-require("./globals.css");
+require("../globals.css");
 var image_1 = require("next/image");
-var about_1 = require("./home/about");
-var features_1 = require("./home/features");
-var screenshots_1 = require("./home/screenshots");
-var dowonloads_1 = require("./home/dowonloads");
-var contactUs_1 = require("./home/contactUs");
-var social_1 = require("./home/social");
+var about_1 = require("../home/about");
+var features_1 = require("../home/features");
+var screenshots_1 = require("../home/screenshots");
+var dowonloads_1 = require("../home/dowonloads");
+var contactUs_1 = require("../home/contactUs");
+var social_1 = require("../home/social");
 function Home() {
     var scrollToSection = function (sectionId) {
         var section = document.getElementById(sectionId);
