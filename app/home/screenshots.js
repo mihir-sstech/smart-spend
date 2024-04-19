@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Screenshots = () => {
 
     return (
-        <div className="max-w-1170 mx-auto mt-10" style={{ background: "#EEEEEE" }}>
+        <div className="max-w-1170 mx-auto mt-10">
             <div className="container mx-auto px-4">
                 <div className="flex flex-row"> {/* Create a flexbox for layout */}
                     <div className="w-4/4"> {/* Allocate 4/4 width for screenshots */}

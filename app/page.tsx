@@ -17,8 +17,8 @@ export default function Home() {
 
   return (
     <div className='' key="hom-section-first-11" >
-      <header className="bg-slate-100 text-black" key="header12">
-        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center py-4" key="container">
+      <header className="bg-#FFFFFF text-black" key="header12" style={{ backgroundColor: 'white' }}>
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center py-4 bg-#FFFFFF" key="container">
           <div className="flex items-center mb-4 md:mb-0" key="logo">
             <Image src="/Smar-SpendLogo-.svg" alt="Icon" className="mr-2" width={80} height={80} />
             <Image src="/Rectangle.png" alt="Icon" className="mr-2" width={230} height={54} />
@@ -35,7 +35,7 @@ export default function Home() {
         </div >
       </header >
 
-      <div className="bg-slate-100 max-w-full container flex flex-col md:flex-row justify-center items-center  mx-auto" key="content">
+      <div className="bg-slate-100 max-w-full container flex flex-col md:flex-row justify-center items-center  mx-auto" key="content" style={{ backgroundColor: 'white' }}>
         <div className="p-10 mr-4" key="image">
           <Image src="/homeone.png" alt="Image" width={551} height={521} />
         </div>
@@ -47,14 +47,14 @@ export default function Home() {
           </h2>
           <p className="text-xl mt-2 md:mt-4 max-w-md font-medium " key="description">Smartspend Expense Manager: Your Daily Companion for Financial Success.</p>
           <div className="flex mt-4" key="store-buttons">
-            <div className="inline-block mr-4" key="download-section-first-6">
+            <div className="inline-block mr-2" key="download-section-first-6">
               <a href="https://play.google.com/store/apps/details?id=sstech.com.singleexpense" target="_blank" rel="noopener noreferrer">
-                <Image src="/Google-Play-Store.png" width={250} height={73} alt="Google Play Button" className="h-11 w-auto" style={{ width: "150px" }} />
+                <Image src="/Google-Play-Store.png" width={250} height={73} alt="Google Play Button" className="h-13 w-auto" style={{ width: "170px" }} />
               </a>
             </div>
             <div className="inline-block" key="download-section-first-7">
               <a href="https://apps.apple.com/us/app/wallet-income-expense-tracker/id1445995357" target="_blank" rel="noopener noreferrer">
-                <Image src="/Apple-Play-Store.png" width={250} height={73} alt="App Store Button" className="h-11 w-auto" style={{ width: "150px" }} />
+                <Image src="/Apple-Play-Store.png" width={250} height={73} alt="App Store Button" className="h-14 w-auto" style={{ width: "170px" }} />
               </a>
             </div>
           </div>
@@ -64,13 +64,13 @@ export default function Home() {
       <div id="about" className="container max-w-full mx-auto" key="about-section">
         <About key="about-content" />
       </div>
-      <div id="features" className="bg-slate-100 container max-w-full  mx-auto" key="features-section">
+      <div id="features" className="container max-w-full  mx-auto" key="features-section" style={{ backgroundColor: 'white' }}>
         <Feature key="features-content" />
       </div>
       <div id="screenshots" className=" container max-w-full mx-auto" key="screenshots-section">
         <Screenshots key="screenshots-content" />
       </div>
-      <div id="heltcenter" className="bg-slate-100 container max-w-full mx-auto" key="helpcenter-section">
+      <div id="heltcenter" className="bg-slate-100 container max-w-full mx-auto" key="helpcenter-section" style={{ backgroundColor: 'white' }}>
         <div className="container mx-auto px-4 mt-10 pt-10" key="help-section-first-12">
           <h1 className="text-3xl font-extrabold mb-4 text-center">Help Center</h1>
 
@@ -100,7 +100,7 @@ export default function Home() {
         </div>
         <Download key="downloads-content" />
       </div>
-      <div id="contact-us" className="bg-slate-100 container max-w-full mx-auto" key="helpcenter-section">
+      <div id="contact-us" className=" container max-w-full mx-auto" key="helpcenter-section" style={{ backgroundColor: 'white' }}>
         <Contact key="contactus" />
       </div>
       <div className="container max-w-full mx-auto" key="social-section">
