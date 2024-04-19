@@ -49,13 +49,13 @@ const Contact = () => {
     return (
         <div className="container mx-auto px-4 py-16 pt-10">
             <ToastContainer />
-            <h1 className="text-3xl font-bold text-center mb-8">Contact Us</h1>
+            <h1 className="text-4xl font-extrabold text-center mb-8">Contact Us</h1>
             <div className="md:p-8 max-w-xl mx-auto">
                 <form className="space-y-6" onSubmit={handleSubmit}>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
-                            <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="first_name">
-                                First Name
+                            <label className="block tracking-wide text-xs font-bold mb-2" htmlFor="first_name">
+                                First Name*
                             </label>
                             <input
                                 className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none"
@@ -68,8 +68,8 @@ const Contact = () => {
                             />
                         </div>
                         <div>
-                            <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="last_name">
-                                Last Name
+                            <label className="block tracking-wide text-xs font-bold mb-2" htmlFor="last_name">
+                                Last Name*
                             </label>
                             <input
                                 className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none"
@@ -82,8 +82,8 @@ const Contact = () => {
                         </div>
                     </div>
                     <div>
-                        <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="email">
-                            Email
+                        <label className="block tracking-wide text-xs font-bold mb-2" htmlFor="email">
+                            Email*
                         </label>
                         <input
                             className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none"
@@ -96,7 +96,7 @@ const Contact = () => {
                         />
                     </div>
                     <div>
-                        <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="message">
+                        <label className="block  tracking-wide text-xs font-bold mb-2" htmlFor="message">
                             Message
                         </label>
                         <textarea

@@ -10,28 +10,30 @@ const Download = () => {
                 </div>
                 <div className="mt-8 md:mt-0" key="download-section-first">
                     <h2 className="text-lg font-extrabold">
-                        <span className="font-bold text-2xl">Download </span>
-                        <span className="font-bold text-[#E53A36] text-2xl">S</span>
-                        <span className="font-bold text-2xl">martSpend</span>
+                        <span className="font-bold text-4xl">Download </span>
+                        <span className="font-bold text-[#E53A36] text-4xl">S</span>
+                        <span className="font-bold text-4xl">mart</span>
+                        <span className="font-bold text-[#E53A36] text-4xl">S</span>
+                        <span className="font-bold text-4xl">pend</span>
                     </h2>
                     <div className="flex items-center mt-4">
                         <div className="inline-block mr-4">
-                            <img src="/Google-Play.png" alt="Google Play" className='h-10 mt-4' />
+                            <img src="/Google-Play.png" alt="Google Play" className='flex h-12 p-1 mt-0' />
                         </div>
                         <div className="flex flex-col">
-                            <div className="mr-2 font-medium text-1xl">4.4 Rating</div>
-                            <img src="/rating.png" alt="Rating" style={{ height: "22px", width: "90px" }} />
+                            <div className="mr-2 font-extrabold text-3xl">4.4 Rating</div>
+                            <img src="/rating.png" alt="Rating" style={{ height: "30px", width: "145px" }} />
                         </div>
                     </div>
                     <div className="flex mt-4" key="download-section-first-5">
                         <div className="inline-block mr-4" key="download-section-first-6">
                             <a href="https://play.google.com/store/apps/details?id=sstech.com.singleexpense" target="_blank" rel="noopener noreferrer">
-                                <Image src="/Google-Play-Store.png" width={200} height={73} alt="Google Play Button" className="h-11 w-auto" style={{ width: "150px" }} />
+                                <Image src="/Google-Play-Store.png" width={150} height={75} alt="Google Play Button" className="h-12 w-auto" style={{ width: "175px" }} />
                             </a>
                         </div>
                         <div className="inline-block" key="download-section-first-7">
                             <a href="https://apps.apple.com/us/app/wallet-income-expense-tracker/id1445995357" target="_blank" rel="noopener noreferrer">
-                                <Image src="/Apple-Play-Store.png" width={200} height={73} alt="App Store Button" className="h-11 w-auto" style={{ width: "150px" }} />
+                                <Image src="/Apple-Play-Store.png" width={150} height={75} alt="App Store Button" className="h-12 w-auto" style={{ width: "175px" }} />
                             </a>
                         </div>
                     </div>
