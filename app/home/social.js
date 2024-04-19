@@ -19,8 +19,8 @@ const Social = () => {
                 <a href="https://www.facebook.com/singleexpense" target="_blank" className="flex items-center justify-center social-icon p-0">
                     <Image src="/faceboook.png" alt="facebook" width={40} height={40} />
                 </a>
-                <a href="https://www.instagram.com/smartspendofficial/" target="_blank" className="">
-                    <Image src="/instagramm.png" alt="instagram" width={33} height={33} />
+                <a href="https://www.instagram.com/smartspendofficial/" target="_blank" className="" >
+                    <Image src="/instagramm.png" alt="instagram" width={33} height={33} style={{ marginTop: "-5px" }} />
                 </a>
             </div>
 
