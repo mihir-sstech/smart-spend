@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
+import Head from "next/head";
 import "./globals.css";
 
-const inter = Roboto({ subsets: ["latin"], weight: ["300"] });
-
-
+// Define font configuration
+const roboto = Roboto({ subsets: ["latin"], weight: ["500"], });
 export const metadata: Metadata = {
   title: "Smart Spend",
   description: "SSTech - Smart Spend",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }

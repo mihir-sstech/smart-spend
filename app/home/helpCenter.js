@@ -23,7 +23,7 @@ const About = () => {
                         <span className="font-bold text-[#E53A36] text-2xl">S</span>
                         <span className="font-bold  text-2xl">pend Help Center</span>
                     </h2>
-                    <p className="text-md mt-2 font-medium md:mt-4 max-w-sm " key="help-section-first-15">Regular updates and user manuals are readily available for your convenience.</p>
+                    <p className="text-xl text-gray-700  font-medium text-center md:text-base mb-4" key="help-section-first-15">Regular updates and user manuals are readily available for your convenience.</p>
                     <div className="flex mt-4" key="help-section-first-16">
                         <button
                             className="text-white bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"

@@ -1,0 +1,19 @@
+/* styles/privacy-policy.module.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* h1,
+h2 {
+  color: #333;
+} */
+
+p {
+  line-height: 1.5;
+}
+
+a:hover {
+  text-decoration: underline;
+}

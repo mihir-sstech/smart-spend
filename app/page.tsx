@@ -7,6 +7,7 @@ import Screenshots from './home/screenshots';
 import Download from './home/dowonloads';
 import Contact from './home/contactUs';
 import Social from './home/social';
+import Link from 'next/link'
 export default function Home() {
   const scrollToSection = (sectionId: any) => {
     const section = document.getElementById(sectionId);
@@ -20,16 +21,20 @@ export default function Home() {
       <header className="bg-#FFFFFF text-black" key="header12" style={{ backgroundColor: 'white' }}>
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center py-4 bg-#FFFFFF" key="container">
           <div className="flex items-center mb-4 md:mb-0" key="logo">
-            <Image src="/Smar-SpendLogo-.svg" alt="Icon" className="mr-2" width={80} height={80} />
-            <Image src="/Rectangle.png" alt="Icon" className="mr-2" width={230} height={54} />
+            <Link href="#">
+              <Image src="/Smar-SpendLogo-.svg" alt="Icon" className="mr-2" width={80} height={80} />
+            </Link>
+            <Link href="#">
+              <Image src="/Rectangle.png" alt="Icon" className="mr-2" width={230} height={54} />
+            </Link>
           </div>
           <nav className="flex flex-col md:flex-row" key="nav">
             <button className="mx-4 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('about')} key="about-button">About</button>
             <button className="mx-4 mb-2 md:mb-0 font-medium font-semibold" onClick={() => scrollToSection('features')} key="features-button" > Features</button >
             <button className="mx-4 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('screenshots')} key="screenshots-button">Screenshots</button>
-            <a href="https://sstechstudio.com/single_expense/pages/index/privacy-policy" target="_blank" rel="noopener noreferrer">
-              <button className="mx-4 mb-2 md:mb-0 font-body font-semibold" key="policy-button">Privacy Policy</button>
-            </a>
+            <Link href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="mx-4 mb-2 md:mb-0 font-body font-semibold">
+              Privacy Policy
+            </Link>
             <button className="mx-0 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('contact-us')} key="contact-us"></button>
           </nav >
         </div >
@@ -43,7 +48,8 @@ export default function Home() {
           <h2 className="text-lg font-extrabold" key="title">
             <span className="font-extrabold text-[#E53A36] text-4xl">Track. </span>
             <span className="font-extrabold text-[#1380E7] text-4xl">Budget. </span>
-            <span className="font-extrabold  text-[#009852] text-4xl">Thrive.</span>
+            <span className="font-extrabold text-[#E53A36] text-4xl">S</span>
+            <span className="font-extrabold text-4xl">pend.</span>
           </h2>
           <p className="text-xl mt-2 md:mt-4 max-w-md font-medium " key="description">Smartspend Expense Manager: Your Daily Companion for Financial Success.</p>
           <div className="flex mt-4" key="store-buttons">

@@ -10,12 +10,12 @@ const Social = () => {
                     <a href="https://sstechstudio.com/single_expense/pages/index/privacy-policy" target="_blank" rel="noopener noreferrer">
                         <p className="text-sm max-sm">Privacy Policy</p>
                     </a>
-                    <p className="text-sm max-sm">2024 © Smart Spend Expense Manager.</p>
+                    <p className="text-sm max-sm">Copyright © 2024 SSTech System Solutions Pvt Ltd, India</p>
                 </div>
             </div>
 
             {/* Center Section with Social Media Buttons */}
-            <div className="flex justify-center md:justify-start items-center space-x-4 py-4 px-4 md:px-0 md:ml-0 md:w-auto" style={{ marginLeft: '-125px', animation: 'slideIn 1s forwards', display: 'flex', alignItems: 'center' }}>
+            <div className="flex justify-center md:justify-start items-center space-x-4 py-4 px-4 md:px-0 md:ml-0 md:w-auto" style={{ marginLeft: '-50px', animation: 'slideIn 1s forwards', display: 'flex', alignItems: 'center' }}>
                 <a href="https://www.facebook.com/singleexpense" target="_blank" className="flex items-center justify-center social-icon p-0">
                     <Image src="/faceboook.png" alt="facebook" width={40} height={40} />
                 </a>
@@ -27,6 +27,9 @@ const Social = () => {
 
             {/* Right Section */}
             <div className="flex justify-end items-center py-4 px-4 md:px-8">
+                <div className="font-bold px-1">
+                    Powerd By
+                </div>
                 <Image src="/sslogo_sticky.png" alt="Image" width={100} height={40} />
             </div>
         </div>
