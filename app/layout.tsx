@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="../public/favicon.ico" />
+      <link rel="icon" href="../smart-spend/public/favicon.ico" />
       <body className={roboto.className}>{children}</body>
     </html>
   );

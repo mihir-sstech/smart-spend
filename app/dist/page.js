@@ -22,7 +22,7 @@ function Home() {
             React.createElement("div", { className: "container mx-auto flex flex-col md:flex-row justify-between items-center  bg-#FFFFFF", key: "container" },
                 React.createElement("div", { className: "flex items-center", key: "logo" },
                     React.createElement(link_1["default"], { href: "#" },
-                        React.createElement(image_1["default"], { src: "/Smart-Expesne--01.svg", alt: "Icon", width: 280, height: 80 }))),
+                        React.createElement(image_1["default"], { src: "/smart-spend/Smart-Expesne--01.svg", alt: "Icon", width: 280, height: 80 }))),
                 React.createElement("nav", { className: "flex flex-col md:flex-row", key: "nav" },
                     React.createElement("button", { className: "mx-4 mb-2 md:mb-0 font-body font-semibold", onClick: function () { return scrollToSection('about'); }, key: "about-button" }, "About"),
                     React.createElement("button", { className: "mx-4 mb-2 md:mb-0 font-medium font-semibold", onClick: function () { return scrollToSection('features'); }, key: "features-button" }, " Features"),

@@ -12,7 +12,7 @@ exports.metadata = {
 function RootLayout(_a) {
     var children = _a.children;
     return (React.createElement("html", { lang: "en" },
-        React.createElement("link", { rel: "icon", href: "../public/favicon.ico" }),
+        React.createElement("link", { rel: "icon", href: "../smart-spend/public/favicon.ico" }),
         React.createElement("body", { className: roboto.className }, children)));
 }
 exports["default"] = RootLayout;
