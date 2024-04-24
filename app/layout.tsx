@@ -4,7 +4,7 @@ import Head from "next/head";
 import "./globals.css";
 
 // Define font configuration
-const roboto = Roboto({ subsets: ["latin"], weight: ["500"], });
+const roboto = Roboto({ subsets: ["latin"], weight: ["300","400","500"] });
 export const metadata: Metadata = {
   title: "Smart Spend",
   description: "SSTech - Smart Spend",
