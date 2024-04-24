@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
             <header className="text-black" key="header12" style={{ backgroundColor: 'white' }}>
                 <div className=" mx-auto flex flex-col md:flex-row justify-between items-center " key="container">
                     <div className="flex items-center " key="logo">
-                        <Link href="#">
+                        <Link href="/smart-spend">
                             <Image src="/smart-spend/Smart-Expesne--01.svg" alt="Icon" width={280} height={80} />
                         </Link>
                     </div>
