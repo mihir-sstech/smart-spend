@@ -17,9 +17,9 @@ const Download = () => {
                         <span className="font-bold text-4xl">pend</span>
                     </h2>
                     <div className="flex flex-col md:flex-row items-center mt-4">
-                        <div className="mr-0 md:mr-4 mb-4 md:mb-0">
+                        {/* <div className="mr-0 md:mr-4 mb-4 md:mb-0">
                             <Image src="/Google-Play.png" alt="Image" width={250} height={700} className='w-full' />
-                        </div>
+                        </div> */}
                         {/* Uncomment this block if you want to include the rating section */}
                         {/* <div className="flex flex-col">
                             <div className="mr-2 font-extrabold text-3xl">4.4 Rating</div>

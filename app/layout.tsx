@@ -6,8 +6,8 @@ import "./globals.css";
 // Define font configuration
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500", "700"] });
 export const metadata: Metadata = {
-  title: "Smart Spend",
-  description: "SSTech - Smart Spend",
+  title: "SmartSpend: Expense Manage Your Money Effortlessly",
+  description: "SmartSpend is a powerful expense manager app that helps you track your spending, budget effectively, and reach your financial goals. Sign up for free today and simplify your money management!",
 };
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="../favicon1.ico" />
+      <link rel="icon" href="../public/favicon.ico" />
       <body className={roboto.className}>{children}</body>
     </html>
   );

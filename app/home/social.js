@@ -7,10 +7,10 @@ const Social = () => {
             {/* Left Section */}
             <div className=" md:px-8">
                 <div className="container mx-auto">
-                    <a href="https://sstechstudio.com/single_expense/pages/index/privacy-policy" target="_blank" rel="noopener noreferrer">
+                    <a href="/smart-spend/privacy-policy" target="_blank" rel="noopener noreferrer">
                         <p className="text-sm max-sm">Privacy Policy</p>
                     </a>
-                    <p className="text-sm max-sm">Copyright © 2024 <a href="https://www.sstechsystem.com/" target="_blank" className="" >SSTech System Solutions Pvt Ltd</a>, India</p>
+                    <p className="text-sm max-sm">Copyrights © 2024 <a href="https://www.sstechsystem.com/" target="_blank" className="" >SSTech System Solutions Pvt Ltd</a>, India</p>
                 </div>
             </div>
 

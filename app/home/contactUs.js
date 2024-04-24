@@ -97,7 +97,7 @@ const Contact = () => {
                     </div>
                     <div>
                         <label className="block  tracking-wide text-xs font-bold mb-2" htmlFor="message">
-                            Message
+                            Message*
                         </label>
                         <textarea
                             className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none h-20 resize-none"
@@ -105,10 +105,11 @@ const Contact = () => {
                             name="message"
                             value={formData.message}
                             onChange={handleChange}
+                            required
                         ></textarea>
                     </div>
                     <button
-                        className="text-center mx-auto block pt-10"
+                        className="mx-auto block pt-10 flex justify-center items-center"
                         style={{
                             backgroundColor: '#2098C7',
                             color: 'white',
@@ -117,13 +118,15 @@ const Contact = () => {
                             border: 'none',
                             borderRadius: '1.25rem',
                             cursor: 'pointer',
-                            width: '350px',
-                            height: '42px'
+                            width: '340px',
+                            height: '33px',
+                            fontSize: '1.25rem',
                         }}
                         type="submit"
                     >
                         Send Now
                     </button>
+
                 </form>
             </div>
         </div>

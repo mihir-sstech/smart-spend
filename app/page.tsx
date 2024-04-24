@@ -19,13 +19,10 @@ export default function Home() {
   return (
     <div className='' key="hom-section-first-11" >
       <header className="bg-#FFFFFF text-black" key="header12" style={{ backgroundColor: 'white' }}>
-        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center py-4 bg-#FFFFFF" key="container">
-          <div className="flex items-center mb-4 md:mb-0" key="logo">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center  bg-#FFFFFF" key="container">
+          <div className="flex items-center" key="logo">
             <Link href="#">
-              <Image src="/Smar-SpendLogo-.png" alt="Icon" className="mr-2" width={80} height={80} />
-            </Link>
-            <Link href="#">
-              <Image src="/Rectangle.png" alt="Icon" className="mr-2" width={230} height={54} />
+              <Image src="/Smart-Expesne--01.svg" alt="Icon" width={280} height={80} />
             </Link>
           </div>
           <nav className="flex flex-col md:flex-row" key="nav">
@@ -47,9 +44,8 @@ export default function Home() {
         <div className="mt-8 md:mt-0" key="text">
           <h2 className="text-lg font-extrabold" key="title">
             <span className="font-extrabold text-[#E53A36] text-4xl">Track. </span>
-            <span className="font-extrabold text-[#1380E7] text-4xl">Budget. </span>
-            <span className="font-extrabold text-[#E53A36] text-4xl">S</span>
-            <span className="font-extrabold text-4xl">pend.</span>
+            <span className="font-extrabold text-[#1380E7] text-4xl">Expense. </span>
+            <span className="font-extrabold text-[#009852] text-4xl">Budget.</span>
           </h2>
           <p className="text-xl mt-2 md:mt-4 max-w-md font-medium " key="description">Smartspend Expense Manager: Your Daily Companion for Financial Success.</p>
           <div className="flex mt-4" key="store-buttons">
