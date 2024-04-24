@@ -10,7 +10,7 @@ const Social = () => {
                     <a href="https://sstechstudio.com/single_expense/pages/index/privacy-policy" target="_blank" rel="noopener noreferrer">
                         <p className="text-sm max-sm">Privacy Policy</p>
                     </a>
-                    <p className="text-sm max-sm">Copyright © 2024 SSTech System Solutions Pvt Ltd, India</p>
+                    <p className="text-sm max-sm">Copyright © 2024 <a href="https://www.sstechsystem.com/" target="_blank" className="" >SSTech System Solutions Pvt Ltd</a>, India</p>
                 </div>
             </div>
 
@@ -30,7 +30,9 @@ const Social = () => {
                 <div className="font-bold px-1">
                     Powerd By
                 </div>
-                <Image src="/sslogo_sticky.png" alt="Image" width={100} height={40} />
+                <a href="https://www.sstechsystem.com/" target="_blank" className="" >
+                    <Image src="/sslogo_sticky.png" alt="Image" width={100} height={40} />
+                </a>
             </div>
         </div>
     );

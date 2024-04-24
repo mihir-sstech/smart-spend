@@ -13,7 +13,9 @@ h2 {
 p {
   line-height: 1.5;
 }
-
+.privacy-policy-container {
+  background-color: #eeeeee; /* Grey background color */
+}
 a:hover {
   text-decoration: underline;
 }
