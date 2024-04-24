@@ -22,7 +22,7 @@ export default function Home() {
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center py-4 bg-#FFFFFF" key="container">
           <div className="flex items-center mb-4 md:mb-0" key="logo">
             <Link href="#">
-              <Image src="/Smar-SpendLogo-.svg" alt="Icon" className="mr-2" width={80} height={80} />
+              <Image src="/Smar-SpendLogo-.png" alt="Icon" className="mr-2" width={80} height={80} />
             </Link>
             <Link href="#">
               <Image src="/Rectangle.png" alt="Icon" className="mr-2" width={230} height={54} />
@@ -32,7 +32,7 @@ export default function Home() {
             <button className="mx-4 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('about')} key="about-button">About</button>
             <button className="mx-4 mb-2 md:mb-0 font-medium font-semibold" onClick={() => scrollToSection('features')} key="features-button" > Features</button >
             <button className="mx-4 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('screenshots')} key="screenshots-button">Screenshots</button>
-            <Link href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="mx-4 mb-2 md:mb-0 font-body font-semibold">
+            <Link href="/smart-spend/privacy-policy" target="_blank" rel="noopener noreferrer" className="mx-4 mb-2 md:mb-0 font-body font-semibold">
               Privacy Policy
             </Link>
             <button className="mx-0 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('contact-us')} key="contact-us"></button>

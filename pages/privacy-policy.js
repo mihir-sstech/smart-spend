@@ -11,15 +11,15 @@ const PrivacyPolicy = () => {
             <header className="text-black" key="header12" style={{ backgroundColor: 'white' }}>
                 <div className=" mx-auto flex flex-col md:flex-row justify-between items-center py-4" key="container">
                     <div className="flex items-center mb-4 md:mb-0" key="logo">
-                        <Link href="/">
-                            <Image src="/Smar-SpendLogo-.svg" alt="Icon" className="mr-2" width={80} height={80} />
+                        <Link href="/smart-spend">
+                            <Image src="/Smar-SpendLogo-.png" alt="Icon" className="mr-2" width={80} height={80} />
                         </Link>
-                        <Link href="/">
+                        <Link href="/smart-spend">
                             <Image src="/Rectangle.png" alt="Icon" className="mr-2" width={230} height={54} />
                         </Link>
                     </div>
                     <nav className="flex flex-col md:flex-row" key="nav">
-                        <Link href="/" className="mx-4 mb-2 md:mb-0 font-body font-semibold">
+                        <Link href="/smart-spend" className="mx-4 mb-2 md:mb-0 font-body font-semibold">
                             Home
                         </Link>
                     </nav >
