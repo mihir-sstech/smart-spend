@@ -26,15 +26,15 @@ const Download = () => {
                             <img src="/rating.png" alt="Rating" className="h-auto md:h-12" />
                         </div> */}
                     </div>
-                    <div className="flex flex-col md:flex-row mt-4">
-                        <div className="mr-0 md:mr-2 mb-4 md:mb-0">
+                    <div className="flex mt-4" key="store-buttons">
+                        <div className="inline-block mr-2" key="download-section-first-6">
                             <a href="https://play.google.com/store/apps/details?id=sstech.com.singleexpense" target="_blank" rel="noopener noreferrer">
-                                <Image src="/Google-Play-Store.png" width={150} height={75} alt="Google Play Button" className="w-full" />
+                                <Image src="/Google-Play-Store.png" width={250} height={73} alt="Google Play Button" className="h-13 w-auto" style={{ width: "170px" }} />
                             </a>
                         </div>
-                        <div>
+                        <div className="inline-block" key="download-section-first-7">
                             <a href="https://apps.apple.com/us/app/wallet-income-expense-tracker/id1445995357" target="_blank" rel="noopener noreferrer">
-                                <Image src="/Apple-Play-Store.png" width={150} height={75} alt="App Store Button" className="w-full" />
+                                <Image src="/Apple-Play-Store.png" width={250} height={73} alt="App Store Button" className="h-14 w-auto" style={{ width: "170px" }} />
                             </a>
                         </div>
                     </div>
