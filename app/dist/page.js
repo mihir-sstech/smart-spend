@@ -27,7 +27,7 @@ function Home() {
                     React.createElement("button", { className: "mx-4 mb-2 md:mb-0 font-body font-semibold", onClick: function () { return scrollToSection('about'); }, key: "about-button" }, "About"),
                     React.createElement("button", { className: "mx-4 mb-2 md:mb-0 font-medium font-semibold", onClick: function () { return scrollToSection('features'); }, key: "features-button" }, " Features"),
                     React.createElement("button", { className: "mx-4 mb-2 md:mb-0 font-body font-semibold", onClick: function () { return scrollToSection('screenshots'); }, key: "screenshots-button" }, "Screenshots"),
-                    React.createElement(link_1["default"], { href: "/smart-spend/privacy-policy", target: "_blank", rel: "noopener noreferrer", className: "mx-4 mb-2 md:mb-0 font-body font-semibold" }, "Privacy Policy"),
+                    React.createElement(link_1["default"], { href: "/smart-spend/privacy-policy", className: "mx-4 mb-2 md:mb-0 font-body font-semibold" }, "Privacy Policy"),
                     React.createElement("button", { className: "mx-0 mb-2 md:mb-0 font-body font-semibold", onClick: function () { return scrollToSection('contact-us'); }, key: "contact-us" })))),
         React.createElement("div", { className: "bg-slate-100 max-w-full container flex flex-col md:flex-row justify-center items-center  mx-auto", key: "content", style: { backgroundColor: 'white' } },
             React.createElement("div", { className: "p-10 mr-4", key: "image" },

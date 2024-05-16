@@ -29,7 +29,7 @@ export default function Home() {
             <button className="mx-4 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('about')} key="about-button">About</button>
             <button className="mx-4 mb-2 md:mb-0 font-medium font-semibold" onClick={() => scrollToSection('features')} key="features-button" > Features</button >
             <button className="mx-4 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('screenshots')} key="screenshots-button">Screenshots</button>
-            <Link href="/smart-spend/privacy-policy" target="_blank" rel="noopener noreferrer" className="mx-4 mb-2 md:mb-0 font-body font-semibold">
+            <Link href="/smart-spend/privacy-policy" className="mx-4 mb-2 md:mb-0 font-body font-semibold">
               Privacy Policy
             </Link>
             <button className="mx-0 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('contact-us')} key="contact-us"></button>
