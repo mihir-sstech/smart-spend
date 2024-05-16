@@ -40,7 +40,7 @@ function Home() {
                 React.createElement("p", { className: "text-xl mt-2 md:mt-4 max-w-md font-medium ", key: "description" }, "Smartspend Expense Manager: Your Daily Companion for Financial Success."),
                 React.createElement("div", { className: "flex mt-4", key: "store-buttons" },
                     React.createElement("div", { className: "inline-block mr-2", key: "download-section-first-6" },
-                        React.createElement("a", { href: "https://play.google.com/store/apps/details?id=sstech.com.singleexpense", target: "_blank", rel: "noopener noreferrer" },
+                        React.createElement("a", { href: "https://play.google.com/store/apps/details?id=sstech.com.smartspend", target: "_blank", rel: "noopener noreferrer" },
                             React.createElement(image_1["default"], { src: "/Google-Play-Store.png", width: 250, height: 73, alt: "Google Play Button", className: "h-13 w-auto", style: { width: "170px" } }))),
                     React.createElement("div", { className: "inline-block", key: "download-section-first-7" },
                         React.createElement("a", { href: "https://apps.apple.com/us/app/wallet-income-expense-tracker/id1445995357", target: "_blank", rel: "noopener noreferrer" },

@@ -50,7 +50,7 @@ export default function Home() {
           <p className="text-xl mt-2 md:mt-4 max-w-md font-medium " key="description">Smartspend Expense Manager: Your Daily Companion for Financial Success.</p>
           <div className="flex mt-4" key="store-buttons">
             <div className="inline-block mr-2" key="download-section-first-6">
-              <a href="https://play.google.com/store/apps/details?id=sstech.com.singleexpense" target="_blank" rel="noopener noreferrer">
+              <a href="https://play.google.com/store/apps/details?id=sstech.com.smartspend" target="_blank" rel="noopener noreferrer">
                 <Image src="/Google-Play-Store.png" width={250} height={73} alt="Google Play Button" className="h-13 w-auto" style={{ width: "170px" }} />
               </a>
             </div>

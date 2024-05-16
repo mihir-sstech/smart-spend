@@ -23,25 +23,16 @@ const PrivacyPolicy = () => {
                 </div >
             </header >
             <div className="privacy-policy-container">
-                <div
-                    className="w-full h-auto flex justify-center items-center "
-
-                    key="privacy-policy-section"
-                >
+                <div className="w-full h-auto flex justify-center items-center " key="privacy-policy-section">
                     <div className="container mx-auto px-2 py-8">
-
-
                         <h1 className="text-4xl font-extrabold text-center  mb-1">Privacy Policy</h1>
-
                         <br></br>
                         <div className="text-lg">
                             <p>
                                 By using our applications you consent to the collection and use of this information by privacy policy physical, electronic and managerial procedures have been employed to safeguard the security and integrity of any personal information entered in the applications.
                             </p>
                         </div>
-
                         {/* Contact Information */}
-
                         <div className="mt-8">
                             <h2 className="text-2xl font-semibold mb-4">Personal Information Collection</h2>
                             <p>The two basic types of information is collected which is personal information and non-personal identifiable information which includes first name, surname, username and password, email address, contact information, country of residence, job title and other information that you provide us when you create an account on the sites.</p>
