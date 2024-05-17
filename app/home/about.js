@@ -27,14 +27,14 @@ const About = () => {
 
             key="about-section"
         >
-            <div className="max-w-4xl px-4" key="about-section-first">
-                <h1 className="text-4xl font-extrabold text-center pt-10 mb-1">About</h1>
-                <div className='md:p-8' style={{ animation: 'slideIn 1s forwards' }}>
-                    <div className="flex flex-col mx-auto" key="about-section-first-half">
+            <div className="max-w-4xl px-4" style={{ marginRight: "155px" }} key="about-section-first">
+                <h1 className="text-4xl font-extrabold text-center pt-10 mb-1" style={{ marginLeft: "90px" }}>About</h1>
+                <div className='md:p-8 ' style={{ animation: 'slideIn 1s forwards' }}>
+                    <div className="flex flex-col mx-auto" style={{ marginRight: "-200px" }} key="about-section-first-half">
                         <p className="text-xl   md:text-base mb-4">
                             <b>SmartSpend: Expense Manager - Simple, Intuitive and Feature-Rich App for Managing Your Expenditure and Budget</b>
                         </p>
-                        <p className="text-xl  text-gray-700  md:text-base mb-4">
+                        <p className="text-xl  text-gray-700  md:text-base mb-4" >
                             SmartSpend: Expense Manager is the #1 Financial Planning, Expense Tracking, and Reviewing App. SmartSpend is one of the highly efficient personal asset management app on Android. Are you finding it difficult to track your expenses? This app is the ultimate option for maintaining the complete statement of your financial records. These are also helpful for avoiding losing any data on the bills and tickets.
                         </p>
                         <p className="text-xl text-gray-700   md:text-base mb-4">

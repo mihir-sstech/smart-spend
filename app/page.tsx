@@ -66,6 +66,7 @@ export default function Home() {
       <div id="about" className="container max-w-full mx-auto" key="about-section">
         <About key="about-content" />
       </div>
+
       <div id="features" className="container max-w-full  mx-auto" key="features-section" style={{ backgroundColor: 'white' }}>
         <Feature key="features-content" />
       </div>
