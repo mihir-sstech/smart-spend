@@ -37,13 +37,14 @@ const Feature = () => {
     ];
     return (
 
-        <div className="container mx-auto px-4 mt-10 pt-10">
+        <div className="lg:container mx-auto px-10 lg:px-4 mt-10 pt-10 lg:pl-[40px] xl:pl-[165px] 2xl:pl-[270px]">
             <h1 className="text-4xl font-extrabold text-center mb-2">App Features</h1>
-            <div className="grid grid-cols-2 md:grid-cols-3 md:p-8 xs:grid-cols-1  gap-4 "> {/* Change grid-cols-2 to grid-cols-3 */}
+            <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4 "> {/* Change grid-cols-2 to grid-cols-3 */}
+
                 {cards.map((card, index) => (
                     <div
                         key={`feature-${index}`}
-                        className="w-670 flex flex-col border border-gray-300 hover:ring-4 hover:blue-300 hover:shadow-lg hover:shadow-current">
+                        className="flex flex-col border border-gray-300 hover:ring-4 hover:blue-300 hover:shadow-lg hover:shadow-current">
                         <div className="w-full h-28 flex justify-center mt-5  " >
                             <Image
                                 src={`/${card.icon}`}
