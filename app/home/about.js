@@ -79,10 +79,6 @@ const About = () => {
                                 <p>The SmartSpend: Expense Manager app is a perfect option for getting an accurate daily, weekly, and monthly summary of the budget. It lets you easily achieve your financial goal for your future.</p>
                             </ul>
                         </div>
-                        <div className="mt-8">
-                            <h2 className="text-2xl font-semibold mb-4">Short Description</h2>
-                            <p>SmartSpend: Expense Manager is a top-rated app for tracking daily, weekly, and monthly expenses.</p>
-                        </div>
                     </div>
                 </div>
             </div>
