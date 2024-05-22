@@ -26,11 +26,11 @@ export default function Home() {
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center  bg-#FFFFFF" key="container">
           <div className="flex items-center" key="logo">
             <Link href="#">
-              <Image src="/Smart-Expesne--01.svg" alt="Icon" width={280} height={80} />
+              <Image src="/smart-spend/Smart-Expesne--01.svg" alt="Icon" width={280} height={80} />
             </Link>
           </div>
           <nav className="flex flex-col md:flex-row" key="nav">
-            <button className="mx-4 mb-2 md:mb-0 font-body font-semibold"  onClick={() => scrollToSection('about')} key="about-button">About</button>
+            <button className="mx-4 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('about')} key="about-button">About</button>
             <button className="mx-4 mb-2 md:mb-0 font-medium font-semibold" onClick={() => scrollToSection('features')} key="features-button" > Features</button >
             <button className="mx-4 mb-2 md:mb-0 font-body font-semibold" onClick={() => scrollToSection('screenshots')} key="screenshots-button">Screenshots</button>
             <Link href="/smart-spend/privacy-policy" className="mx-4 mb-2 md:mb-0 font-body font-semibold">
@@ -40,7 +40,7 @@ export default function Home() {
           </nav >
         </div >
       </header >
-      
+
       {/* <Header scrollToSection={scrollToSection}/> */}
 
       <div className="bg-slate-100 max-w-full container flex flex-col md:flex-row justify-center items-center  mx-auto " key="content" style={{ backgroundColor: 'white' }}>
