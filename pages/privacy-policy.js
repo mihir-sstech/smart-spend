@@ -27,7 +27,7 @@ const PrivacyPolicy = () => {
             </header > */}
 
       <header
-        className="bg-#FFFFFF text-black lg:px-[40px] xl:px-[165px] 2xl:px-[270px] "
+        className="bg-#FFFFFF text-black lg:px-[40px] xl:px-[180px] 2xl:px-[270px] "
         key="header12"
         style={{ backgroundColor: "white" }}
       >
@@ -36,7 +36,7 @@ const PrivacyPolicy = () => {
           key="container"
         >
           <div className="flex items-center" key="logo">
-            <Link href="#">
+            <Link href="/smart-spend">
               <Image
                 src="/smart-spend/Smart-Expesne--01.svg"
                 alt="Icon"
@@ -107,7 +107,7 @@ const PrivacyPolicy = () => {
           className="w-full h-auto flex justify-center items-center "
           key="privacy-policy-section"
         >
-          <div className="container mx-auto px-2 py-8">
+          <div className="container mx-auto px-2 py-8 text-justify">
             <h1 className="text-4xl font-extrabold text-center  mb-3">
               Privacy Policy
             </h1>

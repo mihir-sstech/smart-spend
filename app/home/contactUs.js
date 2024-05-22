@@ -109,14 +109,14 @@ const Contact = () => {
                         ></textarea>
                     </div>
                     <button
-                        className="mx-auto block pt-10 flex justify-center items-center"
+                        className="mx-auto block pt-10 flex justify-center items-center bg-blue-500 hover:bg-blue-700"
                         style={{
-                            backgroundColor: '#2098C7',
+                            //backgroundColor: ' #4299e1',
                             color: 'white',
                             fontWeight: 'bold',
                             padding: '0.5rem 1rem',
                             border: 'none',
-                            borderRadius: '1.25rem',
+                            borderRadius: '0.5rem',
                             cursor: 'pointer',
                             width: '340px',
                             height: '33px',
