@@ -46,22 +46,35 @@ const PrivacyPolicy = () => {
             </Link>
           </div>
           <nav className="flex flex-col md:flex-row" key="nav">
-
             <Link
+              href="/smart-spend"
+              className="mx-4 mb-2 md:mb-0 font-body font-semibold"
+              style={{ fontFamily: "Roboto, sans-serif", textDecoration: 'none' }}
+            >
+              Home
+            </Link>
+            <Link
+              href="/smart-spend/privacy-policy"
+              className="mx-4 mb-2 md:mb-0 font-body font-semibold"
+              style={{ fontFamily: "Roboto, sans-serif", textDecoration: 'none' }}
+            >
+              Privacy Policy
+            </Link>
+            {/* <Link
               href="/smart-spend"
               className="mx-4 mb-2 md:mb-0 font-body font-semibold"
               style={{ fontFamily: "Roboto, sans-serif", textDecoration: 'none' }}
             >
               About
             </Link>
-            {/* <button
+             <button
               className="mx-4 mb-2 md:mb-0 font-body font-semibold"
               style={{ fontFamily: "Roboto, sans-serif" }}
               onClick={() => scrollToSection("about")}
               key="about-button"
             >
               About
-            </button> */}
+            </button> 
             <Link
               href="/smart-spend"
               className="mx-4 mb-2 md:mb-0 font-body font-semibold"
@@ -76,7 +89,7 @@ const PrivacyPolicy = () => {
             >
               Screenshots
             </Link>
-            {/* <button
+            <button
               className="mx-4 mb-2 md:mb-0 font-medium font-semibold"
               style={{ fontFamily: "Roboto, sans-serif" }}
               onClick={() => scrollToSection("features")}
