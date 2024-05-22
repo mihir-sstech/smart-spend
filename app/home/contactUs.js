@@ -47,7 +47,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="container mx-auto px-4 py-16 pt-10">
+        <div className="container mx-auto px-4 py-16 pt-10 ">
             <ToastContainer />
             <h1 className="text-4xl font-extrabold text-center mb-8">Contact Us</h1>
             <div className="md:p-8 max-w-xl mx-auto">
@@ -109,9 +109,9 @@ const Contact = () => {
                         ></textarea>
                     </div>
                     <button
-                        className="mx-auto block pt-10 flex justify-center items-center bg-blue-500 hover:bg-blue-700"
+                        className="mx-auto block pt-10 flex justify-center items-center"
                         style={{
-                            backgroundColor: 'bg-blue-500',
+                            backgroundColor: '#2098C7',
                             color: 'white',
                             fontWeight: 'bold',
                             padding: '0.5rem 1rem',

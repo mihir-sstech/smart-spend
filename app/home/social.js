@@ -3,7 +3,8 @@ import Image from 'next/image';
 
 const Social = () => {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-between w-full md:w-981 h-auto md:h-477 bg-gray-200">
+
+        <div className="flex flex-col md:flex-row items-center justify-between w-full md:w-981 h-auto md:h-477 bg-gray-200 lg:px-[40px] xl:px-[165px] 2xl:px-[270px] ">
             {/* Left Section */}
             <div className=" md:px-8">
                 <div className="container mx-auto">

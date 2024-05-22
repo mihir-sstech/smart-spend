@@ -40,11 +40,12 @@ const Screenshots = () => {
     };
 
     return (
-        <div className="max-w-1170 mx-auto mt-10">
-            <div className="container mx-auto lg:px-4 pt-10 lg:pl-[40px] xl:pl-[165px] 2xl:pl-[270px]">
+        <div className="max-w-1170 mx-auto ">
+            <div className="container mx-auto lg:px-4 pt-10 lg:px-[40px] xl:px-[165px] 2xl:px-[270px] ">
+                {/* lg:pl-[40px] xl:pl-[165px] 2xl:pl-[270px] */}
                 <div className="flex flex-row">
                     <div className="w-full">
-                        <h1 className="text-4xl font-extrabold text-center mb-4">Screenshots</h1>
+                        <h1 className="text-4xl font-extrabold text-center mb-2">Screenshots</h1>
                         <Slider {...settings} className="pt-8">
                             <div>
                                 <Image src="/Screenshot-01.png" alt="Screenshot 1" width={400} height={200} />

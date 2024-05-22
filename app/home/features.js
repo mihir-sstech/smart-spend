@@ -36,10 +36,10 @@ const Feature = () => {
         // Add more card objects as needed
     ];
     return (
-
-        <div className="lg:container mx-auto px-10 lg:px-4 mt-10 pt-10 lg:pl-[40px] xl:pl-[165px] 2xl:pl-[270px]">
-            <h1 className="text-4xl font-extrabold text-center mb-2">App Features</h1>
-            <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4 "> {/* Change grid-cols-2 to grid-cols-3 */}
+            //lg:pl-[40px] xl:pl-[165px] 2xl:pl-[270px]
+        <div className="lg:container mx-auto px-10 lg:px-4 mt-10 py-10 lg:px-[40px] xl:px-[165px] 2xl:px-[270px]">
+            <h1 className="text-4xl font-extrabold text-center mb-10">App Features</h1>
+            <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4 mb-20"> {/* Change grid-cols-2 to grid-cols-3 */}
 
                 {cards.map((card, index) => (
                     <div

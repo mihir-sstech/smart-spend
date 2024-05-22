@@ -22,24 +22,32 @@ const About = () => {
     }, []);
     return (
         <div
-            className="w-full h-auto flex justify-center items-center"
+            className="w-full h-auto flex justify-center items-center lg:px-[40px] xl:px-[165px] 2xl:px-[270px] "
             // className="w-full h-auto flex justify-start items-start"
 
             key="about-section"
         >
-            <div className="max-w-4xl px-4" style={{ marginRight: "155px" }} key="about-section-first">
-                <h1 className="text-4xl font-extrabold text-center pt-10 mb-1" style={{ marginLeft: "90px" }}>About</h1>
+            <div className="max-w-4xl px-4"  key="about-section-first" 
+            //style={{ marginRight: "155px" }}
+            >
+                <h1 className="text-4xl font-extrabold text-center pt-10 mb-1" 
+                //</div>style={{ marginLeft: "90px" }}
+                >About</h1>
                 <div className='md:p-8 ' style={{ animation: 'slideIn 1s forwards' }}>
-                    <div className="flex flex-col mx-auto" style={{ marginRight: "-200px" }} key="about-section-first-half">
+                    <div className="flex flex-col mx-auto "  key="about-section-first-half"
+                    //style={{ marginRight: "-200px" }}
+                    >
+                        <div>
                         <p className="text-xl   md:text-base mb-4">
                             <b>SmartSpend: Expense Manager - Simple, Intuitive and Feature-Rich App for Managing Your Expenditure and Budget</b>
                         </p>
-                        <p className="text-xl  text-gray-700  md:text-base mb-4" >
+                        <p className="text-xl  md:text-base mb-4" >
                             SmartSpend: Expense Manager is the #1 Financial Planning, Expense Tracking, and Reviewing App. SmartSpend is one of the highly efficient personal asset management app on Android. Are you finding it difficult to track your expenses? This app is the ultimate option for maintaining the complete statement of your financial records. These are also helpful for avoiding losing any data on the bills and tickets.
                         </p>
-                        <p className="text-xl text-gray-700   md:text-base mb-4">
+                        <p className="text-xl    md:text-base mb-4">
                             SmartSpend: Expense Manager is a reliable option for recording personal as well as business financial transactions. You have a better way to easily review your daily, weekly as well as monthly financial data by using a simple app.
                         </p>
+                        </div>
                         <div className="mt-8">
                             <h2 className="text-2xl font-semibold mb-4">All-In-One Expense and Budget App:</h2>
                             <p>Are you looking to manage your expenses and budget wisely? SmartSpend: Expense Manager is an intuitive and simple feature-rich app allowing you to record every expense. These also allow you to make perfect planning with your budget for your life. Choosing the daily expense manager app is the best option for having everything at your fingertip with managing the budget, checkbook as well as expenditures. Installing the expense tracker app is quite an efficient option for easily tracking spending as well as budget planning. All the data is saved on the personal cloud account or phone. You have absolute control of your data.</p>
@@ -78,6 +86,10 @@ const About = () => {
                                 <li><b>Expenditure Summary:</b></li>
                                 <p>The SmartSpend: Expense Manager app is a perfect option for getting an accurate daily, weekly, and monthly summary of the budget. It lets you easily achieve your financial goal for your future.</p>
                             </ul>
+                        </div>
+                        <div className="mt-8">
+                            <h2 className="text-2xl font-semibold mb-4">Short Description</h2>
+                            <p>SmartSpend: Expense Manager is a top-rated app for tracking daily, weekly, and monthly expenses.</p>
                         </div>
                     </div>
                 </div>
