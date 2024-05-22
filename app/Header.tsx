@@ -7,12 +7,12 @@ interface HeaderProps {
 }
 
 
- const scrollToSection = (sectionId: any) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+const scrollToSection = (sectionId: any) => {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 const Header: React.FC<HeaderProps> = ({ scrollToSection }) => {
   return (
     <div>
@@ -20,7 +20,7 @@ const Header: React.FC<HeaderProps> = ({ scrollToSection }) => {
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center bg-#FFFFFF" key="container">
           <div className="flex items-center" key="logo">
             <Link href="#">
-              <Image src="/Smart-Expesne--01.svg" alt="Icon" width={280} height={80} />
+              <Image src="/smart-spend/Smart-Expesne--01.svg" alt="Icon" width={280} height={80} />
             </Link>
           </div>
           <nav className="flex flex-col md:flex-row" key="nav">
