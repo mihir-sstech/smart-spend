@@ -38,7 +38,7 @@ const PrivacyPolicy = () => {
           <div className="flex items-center" key="logo">
             <Link href="#">
               <Image
-                src="/Smart-Expesne--01.svg"
+                src="/smart-spend/Smart-Expesne--01.svg"
                 alt="Icon"
                 width={280}
                 height={80}
@@ -49,14 +49,14 @@ const PrivacyPolicy = () => {
             <Link
               href="/smart-spend"
               className="mx-4 mb-2 md:mb-0 font-body font-semibold"
-              style={{ fontFamily: "Roboto, sans-serif", textDecoration:'none' }}
+              style={{ fontFamily: "Roboto, sans-serif", textDecoration: 'none' }}
             >
               Home
             </Link>
             <Link
               href="/smart-spend"
               className="mx-4 mb-2 md:mb-0 font-body font-semibold"
-              style={{ fontFamily: "Roboto, sans-serif", textDecoration:'none' }}
+              style={{ fontFamily: "Roboto, sans-serif", textDecoration: 'none' }}
             >
               About
             </Link>
@@ -71,7 +71,7 @@ const PrivacyPolicy = () => {
             <Link
               href="/smart-spend"
               className="mx-4 mb-2 md:mb-0 font-body font-semibold"
-              style={{ fontFamily: "Roboto, sans-serif", textDecoration:'none' }}
+              style={{ fontFamily: "Roboto, sans-serif", textDecoration: 'none' }}
             >
               Features
             </Link>
